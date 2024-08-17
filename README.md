@@ -1,11 +1,7 @@
 # APISec
 
 # Active API Reconnaissance
-
-<details open>
-
-  <summary>click to collapse</summary>
-
-  this one starts expanded because of the "open"
-
-</details>
+```
+# First Command
+nmap -sV -cV 127.0.0.1 #
+```
