@@ -33,4 +33,6 @@ amass enun -active -d microsoft.com #
 ## Using gobuster
 ```
 sudo apt-get install gobuster -y  # Install GoBuster
-```
+
+gobuster dir -u http://127.0.0.1:8888 -w /path/to/wordlist/file.txt -b 200
+````
