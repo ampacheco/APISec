@@ -15,3 +15,13 @@ nmap -sV 127.0.0.1 -p 8025
 ```
 
 ## Using amass Tool
+
+````
+#
+amass enum list #
+
+#
+amass enun -active -d crapi.apise.ai #
+
+
+````
