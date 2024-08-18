@@ -35,4 +35,8 @@ amass enun -active -d microsoft.com #
 sudo apt-get install gobuster -y  # Install GoBuster
 
 gobuster dir -u http://127.0.0.1:8888 -w /path/to/wordlist/file.txt -b 200
+
+# once you find something interesting you can explore it, for example community endpoit.
+
+gobuster dir -u http://127.0.0.1/community -w /path/to/wordlist/file.txt
 ````
