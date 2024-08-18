@@ -27,15 +27,9 @@ amass enun -active -d crapi.apisec.ai #
 
 amass enun -active -d microsoft.com #
 ````
-
-
 ### Output expected
 ![image](./img/amass-output.png)
 
-````
-# Example
-amass enum -active -d microsoft.com |grep api
-````
 ## Using gobuster
 ```
 sudo apt-get install gobuster -y  # Install GoBuster
