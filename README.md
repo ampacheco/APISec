@@ -23,5 +23,8 @@ amass enum list #
 #
 amass enun -active -d crapi.apisec.ai #
 
+# Example
+amass enum -active -d microsoft.com |grep api
+
 
 ````
