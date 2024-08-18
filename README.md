@@ -23,6 +23,12 @@ amass enum list #
 #
 amass enun -active -d crapi.apisec.ai #
 
+# example of output, usin Microsoft.com
+
+amass enun -active -d microsoft.com #
+![image](https://github.com/user-attachments/assets/0532ed8e-5a9b-400b-a54d-c457cdf06957)
+
+
 # Example
 amass enum -active -d microsoft.com |grep api
 ````
