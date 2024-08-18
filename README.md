@@ -21,7 +21,7 @@ nmap -sV 127.0.0.1 -p 8025
 amass enum list #
 
 #
-amass enun -active -d crapi.apise.ai #
+amass enun -active -d crapi.apisec.ai #
 
 
 ````
