@@ -26,9 +26,11 @@ amass enun -active -d crapi.apisec.ai #
 # example of output, usin Microsoft.com
 
 amass enun -active -d microsoft.com #
+```
+### Output expected
 ![image](./img/amass-output.png)
 
-
+````
 # Example
 amass enum -active -d microsoft.com |grep api
 ````
